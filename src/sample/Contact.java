@@ -1,6 +1,5 @@
 package sample;
 
-import com.google.gson.Gson;
 import javafx.scene.control.Alert;
 
 /**
@@ -56,7 +55,7 @@ public class Contact {
     }
 
     public static void infoBox(String message, String title, String header) {
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.setTitle(title);
         alert.setHeaderText(header);
         alert.setContentText(message);

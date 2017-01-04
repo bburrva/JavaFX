@@ -4,13 +4,10 @@ import javafx.collections.*;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import jodd.json.JsonParser;
 
-import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
-import java.util.Scanner;
 
 public class Controller implements Initializable{
 
